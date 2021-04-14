@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ControlGUI</class>
+ <widget class="QWidget" name="ControlGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1243</width>
+    <height>998</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ControlGUI</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>1171</width>
+     <height>991</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="cmd">
+    <attribute name="title">
+     <string>cmd</string>
+    </attribute>
+    <widget class="QPushButton" name="Send">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>840</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Send</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>1111</width>
+       <height>601</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Shared </string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>1061</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="5" column="6">
+        <widget class="QLabel" name="label_51">
+         <property name="text">
+          <string>tau_ff_k</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="3">
+        <widget class="QLabel" name="label_62">
+         <property name="text">
+          <string>kd_h</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="7">
+        <widget class="QLineEdit" name="INtauKneeff">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_58">
+         <property name="text">
+          <string>kp_a</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>kpx</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>dy_des</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>dz_des</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>dx_des</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_52">
+         <property name="text">
+          <string>q_des_a</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLineEdit" name="INfyff">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="6">
+        <widget class="QLabel" name="label_60">
+         <property name="text">
+          <string>kp_k</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLineEdit" name="INkpAbad">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLineEdit" name="INkpY">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLabel" name="label_31">
+         <property name="text">
+          <string>fy_ff</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLineEdit" name="INtauHipff">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>z_des</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="INkdx">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLineEdit" name="INyDes">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>kdy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="7">
+        <widget class="QLineEdit" name="INdzDes">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>kdz</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="label_50">
+         <property name="text">
+          <string>tau_ff_h</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_49">
+         <property name="text">
+          <string>tau_ff_a</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="7">
+        <widget class="QLineEdit" name="INkdz">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="INxDes">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_61">
+         <property name="text">
+          <string>kd_a</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLabel" name="label_53">
+         <property name="text">
+          <string>q_des_h</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="INkpX">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="INdxDes">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="7">
+        <widget class="QLineEdit" name="INkpZ">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>kpy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QLabel" name="label_56">
+         <property name="text">
+          <string>qd_des_h</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="6">
+        <widget class="QLabel" name="label_57">
+         <property name="text">
+          <string>qd_des_k</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="INqDesAbad">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="7">
+        <widget class="QLineEdit" name="INzDes">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4">
+        <widget class="QLineEdit" name="INqdDesHip">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="INfxff">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>kpz</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLineEdit" name="INkdy">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="INtauAbadff">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLineEdit" name="INdyDes">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3">
+        <widget class="QLabel" name="label_59">
+         <property name="text">
+          <string>kp_h</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>kdx</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLineEdit" name="INkdAbad">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>x_des</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="6">
+        <widget class="QLabel" name="label_54">
+         <property name="text">
+          <string>q_des_k</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>y_des</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="7">
+        <widget class="QLineEdit" name="INqdDesKnee">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="6">
+        <widget class="QLabel" name="label_63">
+         <property name="text">
+          <string>kd_k</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="7">
+        <widget class="QLineEdit" name="INqDesKnee">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="6">
+        <widget class="QLabel" name="label_48">
+         <property name="text">
+          <string>fz_ff</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>fx_ff</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLineEdit" name="INqDesHip">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_55">
+         <property name="text">
+          <string>qd_des_a</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="7">
+        <widget class="QLineEdit" name="INfzff">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="QLineEdit" name="INkpHip">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="INqdDesAbad">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="7">
+        <widget class="QLineEdit" name="INkpKnee">
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="placeholderText">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="7">
+        <widget class="QLineEdit" name="INkdKnee">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="4">
+        <widget class="QLineEdit" name="INkdHip">
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>630</y>
+       <width>861</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Separate</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>791</width>
+        <height>222</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="2" column="8">
+        <widget class="QCheckBox" name="FL_HE">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_125">
+         <property name="text">
+          <string>       HL    </string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer_12">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="6">
+        <widget class="QLabel" name="label_64">
+         <property name="text">
+          <string>tau_max</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLineEdit" name="IN_SE_HR">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLineEdit" name="IN_TauMax_HR">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLineEdit" name="IN_SE_FL">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_121">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="IN_ZJ_HR">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <spacer name="horizontalSpacer_9">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>30</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="IN_ZJ_FR">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_122">
+         <property name="text">
+          <string>       FR    </string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>zero_joints</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_124">
+         <property name="text">
+          <string>       HR    </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_123">
+         <property name="text">
+          <string>       FL  </string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QLineEdit" name="IN_TauMax_FL">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <spacer name="horizontalSpacer_11">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLineEdit" name="IN_SE_FR">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="IN_ZJ_HL">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QLineEdit" name="IN_TauMax_FR">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>soft enable</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="IN_ZJ_FL">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLineEdit" name="IN_SE_HL">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="6">
+        <widget class="QLineEdit" name="IN_TauMax_HL">
+         <property name="maximumSize">
+          <size>
+           <width>120</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="7">
+        <spacer name="horizontalSpacer_7">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="8">
+        <widget class="QCheckBox" name="FR_HE">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="8">
+        <widget class="QLabel" name="label_65">
+         <property name="text">
+          <string>hard_enable</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="8">
+        <widget class="QCheckBox" name="HR_HE">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="8">
+        <widget class="QCheckBox" name="HL_HE">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_36">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>750</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Control_mode</string>
+     </property>
+    </widget>
+    <widget class="QDoubleSpinBox" name="Stand_height">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>700</y>
+       <width>100</width>
+       <height>43</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <double>0.700000000000000</double>
+     </property>
+     <property name="singleStep">
+      <double>0.005000000000000</double>
+     </property>
+     <property name="value">
+      <double>0.550000000000000</double>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_37">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>660</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Height</string>
+     </property>
+    </widget>
+    <widget class="QSpinBox" name="Control_mode">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>790</y>
+       <width>67</width>
+       <height>43</height>
+      </rect>
+     </property>
+     <property name="maximum">
+      <number>1</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="output">
+    <attribute name="title">
+     <string>output</string>
+    </attribute>
+    <widget class="QWidget" name="gridLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>951</width>
+       <height>982</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_42">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_34">
+        <property name="text">
+         <string>tau_knee</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="QLineEdit" name="OU_x_HR"/>
+      </item>
+      <item row="8" column="2">
+       <widget class="QLineEdit" name="OU_qa_FR"/>
+      </item>
+      <item row="15" column="8">
+       <widget class="QLineEdit" name="OU_tauh_HL"/>
+      </item>
+      <item row="10" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_27">
+        <property name="text">
+         <string>q_knee</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_25">
+        <property name="text">
+         <string>q_abad</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLineEdit" name="OU_z_FR"/>
+      </item>
+      <item row="9" column="2">
+       <widget class="QLineEdit" name="OU_qh_FR"/>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLineEdit" name="OU_x_FR"/>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLineEdit" name="OU_dy_FR"/>
+      </item>
+      <item row="2" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>x</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLineEdit" name="OU_y_FR"/>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLineEdit" name="OU_y_FL"/>
+      </item>
+      <item row="0" column="3">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="11" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_28">
+        <property name="text">
+         <string>dq_abad</string>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="6">
+       <widget class="QLineEdit" name="OU_fx_HR"/>
+      </item>
+      <item row="3" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>y</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QLineEdit" name="OU_x_FL"/>
+      </item>
+      <item row="12" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_29">
+        <property name="text">
+         <string>dq_hip</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_47">
+        <property name="text">
+         <string>ECAT_Status</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="17" column="2">
+       <widget class="QLineEdit" name="OU_fx_FR"/>
+      </item>
+      <item row="7" column="2">
+       <widget class="QLineEdit" name="OU_dz_FR"/>
+      </item>
+      <item row="4" column="6">
+       <widget class="QLineEdit" name="OU_z_HR"/>
+      </item>
+      <item row="0" column="5">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="7" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_21">
+        <property name="text">
+         <string>dz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="2">
+       <widget class="QLineEdit" name="OU_dqa_FR">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="2">
+       <widget class="QLineEdit" name="OU_dqh_FR">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="2">
+       <widget class="QLineEdit" name="OU_tauh_FR">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="2">
+       <widget class="QLineEdit" name="OU_taua_FR">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="OU_ECAT_FR"/>
+      </item>
+      <item row="13" column="2">
+       <widget class="QLineEdit" name="OU_dqk_FR">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QLineEdit" name="OU_dx_FL"/>
+      </item>
+      <item row="6" column="4">
+       <widget class="QLineEdit" name="OU_dy_FL"/>
+      </item>
+      <item row="9" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_26">
+        <property name="text">
+         <string>q_hip</string>
+        </property>
+       </widget>
+      </item>
+      <item row="18" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_22">
+        <property name="text">
+         <string>fy</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="2">
+       <widget class="QLineEdit" name="OU_tauk_FR">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLineEdit" name="OU_dx_FR"/>
+      </item>
+      <item row="18" column="2">
+       <widget class="QLineEdit" name="OU_fy_FR"/>
+      </item>
+      <item row="1" column="6">
+       <widget class="QLineEdit" name="OU_ECAT_HR"/>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="OU_ECAT_FL"/>
+      </item>
+      <item row="6" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_20">
+        <property name="text">
+         <string>dy</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="2">
+       <widget class="QLineEdit" name="OU_qk_FR"/>
+      </item>
+      <item row="8" column="4">
+       <widget class="QLineEdit" name="OU_qa_FL"/>
+      </item>
+      <item row="0" column="7">
+       <spacer name="horizontalSpacer_6">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="13" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_30">
+        <property name="text">
+         <string>dq_knee</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_18">
+        <property name="text">
+         <string>z</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="8">
+       <widget class="QLineEdit" name="OU_dqk_HL"/>
+      </item>
+      <item row="10" column="4">
+       <widget class="QLineEdit" name="OU_qk_FL"/>
+      </item>
+      <item row="7" column="4">
+       <widget class="QLineEdit" name="OU_dz_FL"/>
+      </item>
+      <item row="16" column="6">
+       <widget class="QLineEdit" name="OU_tauk_HR"/>
+      </item>
+      <item row="5" column="8">
+       <widget class="QLineEdit" name="OU_dx_HL"/>
+      </item>
+      <item row="16" column="8">
+       <widget class="QLineEdit" name="OU_tauk_HL"/>
+      </item>
+      <item row="16" column="4">
+       <widget class="QLineEdit" name="OU_tauk_FL"/>
+      </item>
+      <item row="12" column="6">
+       <widget class="QLineEdit" name="OU_dqh_HR"/>
+      </item>
+      <item row="14" column="6">
+       <widget class="QLineEdit" name="OU_taua_HR"/>
+      </item>
+      <item row="12" column="8">
+       <widget class="QLineEdit" name="OU_dqh_HL"/>
+      </item>
+      <item row="14" column="8">
+       <widget class="QLineEdit" name="OU_taua_HL"/>
+      </item>
+      <item row="4" column="4">
+       <widget class="QLineEdit" name="OU_z_FL"/>
+      </item>
+      <item row="2" column="8">
+       <widget class="QLineEdit" name="OU_x_HL"/>
+      </item>
+      <item row="11" column="8">
+       <widget class="QLineEdit" name="OU_dqa_HL"/>
+      </item>
+      <item row="15" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_33">
+        <property name="text">
+         <string>tau_hip</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="8">
+       <widget class="QLineEdit" name="OU_z_HL"/>
+      </item>
+      <item row="19" column="2">
+       <widget class="QLineEdit" name="OU_fz_FR"/>
+      </item>
+      <item row="14" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_32">
+        <property name="text">
+         <string>tau_abad</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="8">
+       <widget class="QLineEdit" name="OU_qa_HL"/>
+      </item>
+      <item row="3" column="8">
+       <widget class="QLineEdit" name="OU_y_HL"/>
+      </item>
+      <item row="5" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_19">
+        <property name="text">
+         <string>dx</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="6">
+       <widget class="QLineEdit" name="OU_y_HR"/>
+      </item>
+      <item row="17" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_23">
+        <property name="text">
+         <string>fx</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="8">
+       <widget class="QLineEdit" name="OU_qh_HL"/>
+      </item>
+      <item row="19" column="0" alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>fz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="4">
+       <widget class="QLineEdit" name="OU_taua_FL"/>
+      </item>
+      <item row="8" column="6">
+       <widget class="QLineEdit" name="OU_qa_HR"/>
+      </item>
+      <item row="7" column="6">
+       <widget class="QLineEdit" name="OU_dz_HR"/>
+      </item>
+      <item row="17" column="8">
+       <widget class="QLineEdit" name="OU_fx_HL"/>
+      </item>
+      <item row="6" column="8">
+       <widget class="QLineEdit" name="OU_dy_HL"/>
+      </item>
+      <item row="7" column="8">
+       <widget class="QLineEdit" name="OU_dz_HL"/>
+      </item>
+      <item row="15" column="6">
+       <widget class="QLineEdit" name="OU_tauh_HR"/>
+      </item>
+      <item row="11" column="4">
+       <widget class="QLineEdit" name="OU_dqa_FL"/>
+      </item>
+      <item row="10" column="6">
+       <widget class="QLineEdit" name="OU_qk_HR"/>
+      </item>
+      <item row="10" column="8">
+       <widget class="QLineEdit" name="OU_qk_HL"/>
+      </item>
+      <item row="1" column="8">
+       <widget class="QLineEdit" name="OU_ECAT_HL"/>
+      </item>
+      <item row="9" column="4">
+       <widget class="QLineEdit" name="OU_qh_FL"/>
+      </item>
+      <item row="12" column="4">
+       <widget class="QLineEdit" name="OU_dqh_FL"/>
+      </item>
+      <item row="13" column="4">
+       <widget class="QLineEdit" name="OU_dqk_FL"/>
+      </item>
+      <item row="6" column="6">
+       <widget class="QLineEdit" name="OU_dy_HR"/>
+      </item>
+      <item row="17" column="4">
+       <widget class="QLineEdit" name="OU_fx_FL"/>
+      </item>
+      <item row="15" column="4">
+       <widget class="QLineEdit" name="OU_tauh_FL"/>
+      </item>
+      <item row="5" column="6">
+       <widget class="QLineEdit" name="OU_dx_HR"/>
+      </item>
+      <item row="13" column="6">
+       <widget class="QLineEdit" name="OU_dqk_HR"/>
+      </item>
+      <item row="11" column="6">
+       <widget class="QLineEdit" name="OU_dqa_HR"/>
+      </item>
+      <item row="9" column="6">
+       <widget class="QLineEdit" name="OU_qh_HR"/>
+      </item>
+      <item row="18" column="4">
+       <widget class="QLineEdit" name="OU_fy_FL"/>
+      </item>
+      <item row="18" column="6">
+       <widget class="QLineEdit" name="OU_fy_HR"/>
+      </item>
+      <item row="18" column="8">
+       <widget class="QLineEdit" name="OU_fy_HL"/>
+      </item>
+      <item row="19" column="4">
+       <widget class="QLineEdit" name="OU_fz_FL"/>
+      </item>
+      <item row="19" column="6">
+       <widget class="QLineEdit" name="OU_fz_HR"/>
+      </item>
+      <item row="19" column="8">
+       <widget class="QLineEdit" name="OU_fz_HL"/>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label_44">
+        <property name="maximumSize">
+         <size>
+          <width>1000</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>FL</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLabel" name="label_45">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>HR</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_43">
+        <property name="maximumSize">
+         <size>
+          <width>1000</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>FR</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QLabel" name="label_46">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>HL</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>111</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label_35">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>ESTOP</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="OU_ESTOP">
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

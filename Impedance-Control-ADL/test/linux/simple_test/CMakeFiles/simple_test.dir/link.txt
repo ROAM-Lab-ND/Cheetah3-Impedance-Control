@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/simple_test.dir/simple_test.o  -o simple_test -rdynamic -lsoem -lpthread -lrt 

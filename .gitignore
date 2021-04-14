@@ -1,0 +1,6 @@
+build*
+Impedance-Control-ADL/install
+*~
+Impedance-Control-ADL/doc/latex
+Impedance-Control-ADL/doc/html
+*.o

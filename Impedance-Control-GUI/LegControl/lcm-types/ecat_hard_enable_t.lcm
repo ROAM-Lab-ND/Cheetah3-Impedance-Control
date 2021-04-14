@@ -1,0 +1,6 @@
+struct ecat_hard_enable_t
+{
+	boolean hard_enable[4];
+	int8_t control_mode;		
+	float  h_max;
+}

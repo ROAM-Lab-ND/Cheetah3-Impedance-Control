@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/SOEM2/SOEM/test/linux/simple_test/simple_test.c
+stdio.h
+-
+string.h
+-
+inttypes.h
+-
+ethercat.h
+/home/user/SOEM2/SOEM/test/linux/simple_test/ethercat.h
+time.h
+-
+

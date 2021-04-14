@@ -1,0 +1,5 @@
+struct ecat_adl_status_t
+{
+	boolean estop_status;
+	byte ecat_status[4];
+}
